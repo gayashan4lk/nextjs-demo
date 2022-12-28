@@ -3,9 +3,8 @@ import Layout from '../../components/layout';
 
 export default function FirstPost() {
 	return (
-		<Layout>
-			<h1>First Post 1</h1>
-			<Link href='/'>Back to home</Link>
+		<Layout title='First Post'>
+			<h3>First Post 1</h3>
 		</Layout>
 	);
 }
